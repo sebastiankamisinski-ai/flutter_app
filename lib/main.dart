@@ -27,7 +27,7 @@ class _MyAppState extends State<MyApp> {
       theme: ThemeData(
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
       ),
-      home: loggedInEmployee == null 
+        home: loggedInEmployee == null
           ? const LoginPage()
           : const StartPage(),
     );
